@@ -132,11 +132,9 @@ class RecaptchaV3
             $html .= "<script>
             function " . $functionName . "(e) {
                 e.preventDefault();
-                console.log('submete formulário');
                 grecaptcha.ready(function() {
                   grecaptcha.execute('" . $this->sitekey . "', {action: '" . $action . "'}).then(function(token) {
                      document.getElementById('" . $fieldId . "').value = token;
-                     console.log(token);
                      document.getElementById('" . $formId . "').submit();
                   });
                 });
