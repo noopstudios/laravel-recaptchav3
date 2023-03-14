@@ -1,13 +1,13 @@
 {
-    "name": "josiasmontag/laravel-recaptchav3",
+    "name": "noopstudios/laravel-recaptchav3",
     "description": "Recaptcha V3 for Laravel package",
     "keywords": ["captcha", "recaptcha", "laravel", "php"],
-    "homepage": "https://github.com/josiasmontag/laravel-recaptchav3",
+    "homepage": "https://github.com/noopstudios/laravel-recaptchav3",
     "license": "MIT",
     "authors": [
         {
-            "name": "Josias Montag",
-            "email": "josias@montag.info"
+            "name": "Fábio Ferreira",
+            "email": "dev@noop.pt"
         }
     ],
     "require": {
